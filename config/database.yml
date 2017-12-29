@@ -6,7 +6,5 @@ production:
   adapter: postgresql
   encoding: utf8
   database: sgShowtimesApi
-  username: sgsa
-  password: 12345
-  host: localhost
-  port: 5432
+  host: postgres://doymwkhjebqtug:4d50f97e44948aad66cab2ff9bc87b4a71898b901d54a65b1c5d3ca7b5f7cdb4@ec2-50-17-234-234.compute-1.amazonaws.com:5432/d2lq5aus1qd1s0
+  password:
