@@ -10,6 +10,8 @@ gem 'whenever'
 gem 'rerun'
 gem 'sqlite3'
 
+gem 'rails_12factor'
+
 group :production do
   gem 'pg'
 end

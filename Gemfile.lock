@@ -50,6 +50,11 @@ GEM
       rack
     rack-test (0.6.3)
       rack (>= 1.0)
+    rails_12factor (0.0.3)
+      rails_serve_static_assets
+      rails_stdout_logging
+    rails_serve_static_assets (0.0.5)
+    rails_stdout_logging (0.0.5)
     rake (12.0.0)
     rb-fsevent (0.9.8)
     rb-inotify (0.9.8)
@@ -85,6 +90,7 @@ DEPENDENCIES
   nokogiri
   pg
   poltergeist
+  rails_12factor
   rake
   rerun
   sinatra-activerecord
@@ -92,4 +98,4 @@ DEPENDENCIES
   whenever
 
 BUNDLED WITH
-   1.14.6
+   1.16.1
