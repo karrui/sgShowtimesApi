@@ -3,6 +3,7 @@ development:
   database: db.sqlite3
 
 production:
+  url: <%= ENV['DATABASE_URL'] %>
   adapter: postgresql
   encoding: utf8
   database: sgShowtimesApi
